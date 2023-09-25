@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import DisplayDonation from "./DisplayDonation";
 
 const Donation = () => {
 
@@ -11,8 +12,10 @@ const Donation = () => {
     
     
     return (
-        <div>
-            <p>donation</p>
+        <div className="md:grid grid-cols-2 gap-5">
+            {
+                getDonation?.map(donations => <DisplayDonation key={donations.id} donations={donations}></DisplayDonation>)
+           }
         </div>
     );
 };

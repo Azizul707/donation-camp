@@ -14,7 +14,7 @@ const Home = () => {
    
    
     return (
-        <div className="sm:grid-cols-1 justify-center items-center content-center  md:grid grid-cols-2 gap-4 lg:grid-cols-4">
+        <div className="mt-[40rem] md:grid grid-cols-2 gap-4 lg:grid-cols-4">
             {
                 donates?.map(donate => <DonateCard key={donate.id} donate={donate}></DonateCard>)
             }            
