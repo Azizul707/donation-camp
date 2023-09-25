@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/30vGF0d/Rectangle-4284.png",
+    "title": "Medical Supplies Donation",
+    "category": "health",
+    "categoryColorBg": "#6CAF50",
+    "cardColorBg": "#A5D6A7",
+    "textColor": "#1CAF10",
+    "buttonBgColor": "#6CAF50",
+    "description": "Support our efforts to provide essential medical supplies to clinics and hospitals.",
+    "price": 30.0
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/3rgB2m6/Education.png",
+    "title": "Educational Scholarships",
+    "category": "education",
+    "categoryColorBg": "#2196F3",
+    "cardColorBg": "#90CAF9",
+    "textColor": "#1021F1",
+    "buttonBgColor": "#2196F3",
+    "description": "Fund scholarships to help deserving students access quality education.",
+    "price": 50.0
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/3r4F0Rf/Rectangle-4287.png",
+    "title": "Warm Winter Coats",
+    "category": "clothing",
+    "categoryColorBg": "#F06292",
+    "cardColorBg": "#F48FB1",
+    "textColor": "#F01245",
+    "buttonBgColor": "#F06292",
+    "description": "Donate winter coats to keep people warm during the cold months.",
+    "price": 40.0
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/XkqpkP2/Food.png",
+    "title": "Nutritious Meal Kit",
+    "category": "food",
+    "categoryColorBg": "#FF5733",
+    "cardColorBg": "#FFA07A",
+    "textColor": "#333",
+    "buttonBgColor": "#FF5733",
+    "description": "Provide a meal kit full of nutritious food for a family in need.",
+    "price": 20.0
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/30vGF0d/Rectangle-4284.png",
+    "title": "Medical Supplies Donation",
+    "category": "health",
+    "categoryColorBg": "#6CAF50",
+    "cardColorBg": "#A5D6A7",
+    "textColor": "#1CAF10",
+    "buttonBgColor": "#6CAF50",
+    "description": "Support our efforts to provide essential medical supplies to clinics and hospitals.",
+    "price": 40.0
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/3rgB2m6/Education.png",
+    "title": "School Supplies for Kids",
+    "category": "education",
+    "categoryColorBg": "#2196F3",
+    "cardColorBg": "#90CAF9",
+    "textColor": "#1021F1",
+    "buttonBgColor": "#2196F3",
+    "description": "Provide essential school supplies to underprivileged children.",
+    "price": 20.0
+  },
+
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/XkqpkP2/Food.png",
+    "title": "Feeding the Homeless",
+    "category": "food",
+    "categoryColorBg": "#FF5733",
+    "cardColorBg": "#FFA07A",
+    "textColor": "#333",
+    "buttonBgColor": "#FF5733",
+    "description": "Help us serve hot meals to homeless individuals in your community.",
+    "price": 10.0
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/30vGF0d/Rectangle-4284.png",
+    "title": "Children's Vaccination Drive",
+    "category": "health",
+    "categoryColorBg": "#6CAF50",
+    "cardColorBg": "#A5D6A7",
+    "textColor": "#1CAF10",
+    "buttonBgColor": "#6CAF50",
+    "description": "Contribute to a vaccination drive to protect children from preventable diseases.",
+    "price": 15.0
+  },
+  {
+    "id": 9,
+    "picture": "https://i.ibb.co/3r4F0Rf/Rectangle-4287.png",
+    "title": "Clothing Drive",
+    "category": "clothing",
+    "categoryColorBg": "#F06292",
+    "cardColorBg": "#F48FB1",
+    "textColor": "#F01245",
+    "buttonBgColor": "#F06292",
+    "description": "Support a clothing drive for those in need in your community.",
+    "price": 15.0
+  },
+
+  {
+    "id": 10,
+
+    "picture": "https://i.ibb.co/3rgB2m6/Education.png",
+    "title": "School Supplies for Kids",
+    "category": "education",
+    "categoryColorBg": "#2196F3",
+    "cardColorBg": "#90CAF9",
+    "textColor": "#1021F1",
+    "buttonBgColor": "#2196F3",
+    "description": "Provide essential school supplies to underprivileged children.",
+    "price": 25.0
+  },
+  {
+    "id": 11,
+    "picture": "https://i.ibb.co/3r4F0Rf/Rectangle-4287.png",
+    "title": "Clothing Drive",
+    "category": "clothing",
+    "categoryColorBg": "#F06292",
+    "cardColorBg": "#F48FB1",
+    "textColor": "#F01245",
+    "buttonBgColor": "#F06292",
+    "description": "Support a clothing drive for those in need in your community.",
+    "price": 15.0
+  },
+  {
+    "id": 12,
+    "picture": "https://i.ibb.co/XkqpkP2/Food.png",
+    "title": "Feeding the Homeless",
+    "category": "food",
+    "categoryColorBg": "#FF5733",
+    "cardColorBg": "#FFA07A",
+    "textColor": "#333",
+    "buttonBgColor": "#FF5733",
+    "description": "Help us serve hot meals to homeless individuals in your community.",
+    "price": 22.0
+  }
+]
