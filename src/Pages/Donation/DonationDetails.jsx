@@ -11,7 +11,7 @@ const DonationDetails = () => {
 
 
     useEffect( () => {
-        console.log( id );
+        
         const selectDonation = donates.find( donate => donate.id == id )
         setDonation( selectDonation );
     }, [ id, donates ] )
