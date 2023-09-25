@@ -17,6 +17,7 @@ const DonationDetails = () => {
     }, [ id, donates ] )
 
     return (
+        
         <div>
             <ShowDonateCards donation={ donation }></ShowDonateCards>
         </div>
