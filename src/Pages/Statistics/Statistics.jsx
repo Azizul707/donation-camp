@@ -8,13 +8,10 @@ const Statistics = () => {
     useEffect( () => {
         const makeDonation = JSON.parse( localStorage.getItem( 'donation' ) );
         setDonateAmount( makeDonation );
-        
-        
-
 
     }, [ setDonateAmount ] );
     
-    const totalDonationAmount = donateAmount.reduce( ( total, donateAmount ) => total + donateAmount.price, 0 );
+    const totalDonationAmount = donateAmount?.reduce( ( total, donateAmount ) => total + donateAmount.price, 0 );
     
     const amountAvarage = totalDonationAmount * 12 / 100;
     const data = [
