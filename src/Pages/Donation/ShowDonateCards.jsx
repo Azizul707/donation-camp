@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import swal from "sweetalert";
 
 
-const ShowDonateCards = ( { donation } ) => {
+const ShowDonateCards = (  {donation}  ) => {
     
-    const { picture, title,textColor, price, description } = donation;
+    const { picture, title,textColor, price, description } = donation || {};
     
     const handleDonationAdd = () => {
         
@@ -28,7 +28,7 @@ const ShowDonateCards = ( { donation } ) => {
     return (
         <div className="max-w-6xl mx-auto">
             <div className=" mx-auto relative">
-                <img className="w-full h-[90vh]" src={ picture } alt="" />
+                <img className="w-full h-[90vh]" src={picture} alt="" />
                 <div className="w-full bg-black opacity-80 h-20 absolute bottom-0 left-0">
                     <div className="pt-5 pl-14">
                         <Link>
