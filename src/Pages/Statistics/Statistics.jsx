@@ -21,15 +21,10 @@ const Statistics = () => {
     
       const colors = ['#00C49F', '#FF444A'];
 
-    
-
-
-
-
     return (
         <div className="text-xl font-semibold flex justify-center">
         
-      <PieChart width={500} height={500}>
+      <PieChart width={550} height={500}>
         <Pie
           data={data}
           dataKey="value"

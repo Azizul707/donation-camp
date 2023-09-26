@@ -9,7 +9,7 @@ const Donation = () => {
         const makeDonation = JSON.parse( localStorage.getItem( 'donation' ) ) || [];
         setGetdonation( makeDonation );
        
-    }, [] );
+    }, [setGetdonation] );
 
     
     
@@ -19,7 +19,7 @@ const Donation = () => {
         <div className="">
             <div className=" md:grid grid-cols-2 gap-5">
             {
-                    showMore ?Array.isArray(getDonation)?.map( donations => <DisplayDonation key={ donations.id } donations={ donations }></DisplayDonation> ) :getDonation?.slice(0,4).map( donations => <DisplayDonation key={ donations.id } donations={ donations }></DisplayDonation> )
+                    showMore ? getDonation?.map( donations => <DisplayDonation key={ donations.id } donations={ donations }></DisplayDonation> ) :getDonation?.slice(0,4).map( donations => <DisplayDonation key={ donations.id } donations={ donations }></DisplayDonation> )
                         
            }
             </div>
