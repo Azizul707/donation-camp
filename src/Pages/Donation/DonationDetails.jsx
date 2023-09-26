@@ -6,7 +6,6 @@ import ShowDonateCards from "./ShowDonateCards";
 const DonationDetails = () => {
     const { id } = useParams();
     const idx = Number( id );
-    console.log(idx);
     const [ donation, setDonation ] = useState( {} ) || {};
     const donates = useLoaderData();
    
@@ -18,7 +17,7 @@ const DonationDetails = () => {
             const selectDonation = donates.find( ( donate ) => donate.id === idx );
             setDonation( selectDonation );
         }
-    }, [ id, donates, setDonation ] )
+    }, [ idx, donates, setDonation ] )
    
 
     return (
