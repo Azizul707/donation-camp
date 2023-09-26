@@ -9,7 +9,8 @@ const Donation = () => {
         const makeDonation = JSON.parse( localStorage.getItem( 'donation' ) ) || [];
         setGetdonation( makeDonation );
        
-    }, [setGetdonation] );
+    }, [] );
+    console.log(getDonation);
 
     
     

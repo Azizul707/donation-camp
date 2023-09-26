@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 const DonateCard = ( { donate } ) => {
-    const { id, picture, title, cardColorBg, category, categoryColorBg, textColor } = donate;
+    const { id, picture, title, cardColorBg, category, categoryColorBg, textColor } = donate || {};
     return (
         <div className="">
             <div className="z-0 absolute top-0 left-0 w-full h-[81vh] bg-slate-50  bg-auto bg-no-repeat bg-center bg-[url('https://i.ibb.co/QCpNbPX/bg.jpg')] bg-blend-soft-light">
