@@ -5,16 +5,18 @@ import swal from "sweetalert";
 
 const ShowDonateCards = (  {donation}  ) => {
     
-    const { picture, title,textColor, price, description } = donation || {};
+    
+    const { picture, title, textColor, price, description } = donation || {};
     
     const handleDonationAdd = () => {
         
-        const donationAmount = [];
         const makeDonation = JSON.parse( localStorage.getItem( 'donation' ) );
+        const donationAmount = [];
+        
         if ( !makeDonation ) {
             donationAmount.push( donation );
             localStorage.setItem( 'donation', JSON.stringify( donationAmount ) || [] );
-            swal("Good job!", "You clicked the button!", "success");
+            swal("Good job!", "You Have Saved A Life By Donate!", "success");
         } else {
             
             donationAmount.push( ...makeDonation,donation );

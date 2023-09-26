@@ -10,7 +10,7 @@ const Donation = () => {
         setGetdonation( makeDonation );
        
     }, [] );
-    console.log(getDonation);
+
 
     
     
@@ -20,7 +20,7 @@ const Donation = () => {
         <div className="">
             <div className=" md:grid grid-cols-2 gap-5">
             {
-                    showMore ? getDonation?.map( donations => <DisplayDonation key={ donations.id } donations={ donations }></DisplayDonation> ) :getDonation?.slice(0,4).map( donations => <DisplayDonation key={ donations.id } donations={ donations }></DisplayDonation> )
+                    showMore ? getDonation?.map( (donations,idx) => <DisplayDonation key={idx } donations={ donations }></DisplayDonation> ) :getDonation?.slice(0,4).map( (donations,idx) => <DisplayDonation key={ idx } donations={ donations }></DisplayDonation> )
                         
            }
             </div>
