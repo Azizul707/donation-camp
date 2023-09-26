@@ -5,16 +5,17 @@ import ShowDonateCards from "./ShowDonateCards";
 
 const DonationDetails = () => {
     const { id } = useParams();
-    const [ donation, setDonation ] = useState( {} );
+    const [ donation, setDonation ] = useState( {} ) || {};
     const donates = useLoaderData();
 
 
 
     useEffect( () => {
-        
-        const selectDonation = donates.find( donate => donate.id == id )
-        setDonation( selectDonation );
-    }, [ id, donates ] )
+        if (Array.isArray(donates)) {
+            const selectDonation = donates.find((donate) => donate.id === id);
+            setDonation(selectDonation);
+          }
+    }, [ id, donates, setDonation] )
 
     return (
         
