@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Pichart from "./Pichart";
 import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
 
 const Statistics = () => {
